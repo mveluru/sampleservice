@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: sampleservice
+server:
+  port: 8084
+  servlet:
+    context-path: /sample
+  error:
+    include-stacktrace: never
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      probes:
+        enabled: true
