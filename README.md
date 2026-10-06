@@ -23,7 +23,7 @@ mvn test
 mvn spring-boot:run
 ```
 
-The service will start on port 8084 with context path `/sample`.
+The service will start on port 8086 with context path `/sample`.
 
 ## Endpoints
 
